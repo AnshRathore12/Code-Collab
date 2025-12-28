@@ -3,8 +3,8 @@ import path from "path"
 import {connectDB} from "./lib/db.js"
 import cors from "cors"
 import {serve} from "inngest/express"
-import {inngest} from "./lib/inngest.js"
-import {functions} from "./inngest/functions.js"
+import {inngest,functions} from "./lib/inngest.js"
+
 
 import {ENV} from "./lib/env.js"
 
